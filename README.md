@@ -1,4 +1,4 @@
-# Group11 利用時間序列進行匯率預測
+# Group11 美國與各國間匯率預測
 
 ### Groups
 * 許育誠, 107753001
@@ -37,7 +37,7 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
 * What is a null model for comparison?
   * 使用 K-Fold Cross Validation 來進行模型驗證
 * How do your perform evaluation? ie. Cross-validation, or extra separated data
-
+  * 判斷是否穩態.png
 ### results
 
 * Which metric do you use 
