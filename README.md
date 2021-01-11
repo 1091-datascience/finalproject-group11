@@ -52,9 +52,13 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
 
 * Which metric do you use 
   * R-square
-  
+![image](https://github.com/1091-datascience/finalproject-group11/blob/master/%20r%20square.pdf)
 * Is your improvement significant?
+  
+  從上面R-square的結果可以看出，其結果非常的差，也發生了過度擬合等問題，接下來的發展空間仍然非常的大。
 * What is the challenge part of your project?
+  
+  或許自己原本以為時間充裕，想要選擇較有挑戰性的來施作，像是時間序列等股票趨勢來分析。但是過程中，遇到很多程式語法、時間序列模型使用前檢定一直不合格(回歸三大假設：誤差具有常態分配、相同標準差等)。在時間壓迫下也只能選擇較好掌握的課題。
 
 ## References
 * Code/implementation which you include/reference (__You should indicate in your presentation if you use code for others. Otherwise, cheating will result in 0 score for final project.__)
