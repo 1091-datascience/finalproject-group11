@@ -20,9 +20,14 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
 ### data
 
 * Source
-  * yahoo股票
+  * 黃開 ，機器學習與傳統模型對外匯報酬知因子分析，國立政治大學金融學研究所碩士學位論文
 * Input format
-  * 
+  * 當地政府利率
+  * 當地政府債務佔GDP比例
+  * 當地政府利率
+  * 經常帳佔GDP
+  * 政治風險
+  * 各國外匯存底 ...等共63個
 * Any preprocessing?
   * 文字類別轉換成數字
   * 缺失值刪除
@@ -70,6 +75,7 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
   * library(mice)
   * library(caret)
 * Related publications
+  * 黃開 ，機器學習與傳統模型對外匯報酬知因子分析，國立政治大學金融學研究所碩士學位論文
   * https://blog.csdn.net/zpxcod007/article/details/80118580
   * https://ithelp.ithome.com.tw/articles/10244840
   * http://blog.fens.me/r-na-mice/
