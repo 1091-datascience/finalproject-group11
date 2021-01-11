@@ -32,8 +32,8 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
 ### code
 
 * Which method do you use?
+  * 線性回歸
   * xgboost
-  * 
 * What is a null model for comparison?
   * 使用 K-Fold Cross Validation 來進行模型驗證
 * How do your perform evaluation? ie. Cross-validation, or extra separated data
@@ -41,7 +41,8 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
 ### results
 
 * Which metric do you use 
-  * precision, recall, R-square
+  * R-square
+  
 * Is your improvement significant?
 * What is the challenge part of your project?
 
@@ -55,7 +56,8 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
   * library(mice)
   * library(caret)
 * Related publications
+  * https://blog.csdn.net/zpxcod007/article/details/80118580
   * https://ithelp.ithome.com.tw/articles/10244840
-  *  
+  * http://blog.fens.me/r-na-mice/
 
 
