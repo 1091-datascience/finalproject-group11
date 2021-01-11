@@ -37,7 +37,7 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
 * What is a null model for comparison?
   * 使用 K-Fold Cross Validation 來進行模型驗證
 * How do your perform evaluation? ie. Cross-validation, or extra separated data
-  ![image](Result.png)
+  ![image](https://github.com/1091-datascience/finalproject-group11/blob/master/%E5%88%A4%E6%96%B7%E6%98%AF%E5%90%A6%E7%A9%A9%E6%85%8B.png)
 ### results
 
 * Which metric do you use 
