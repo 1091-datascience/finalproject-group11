@@ -1,0 +1,7 @@
+set,training,validation,test
+fold1,1,0.45,0.12
+fold2,1,0.45,0.42
+fold3,1,0.39,0.47
+fold4,1,0.06,0.16
+fold5,1,0.16,0.29
+ave.,1,0.3,0.29
