@@ -1,13 +1,10 @@
-# [GroupID] Title of your final project
+# [Group11] 利用時間序列進行股票回測
 
 ### Groups
-* name, student ID1
-* name, student ID2
-* name, student ID3
-* ...
+* 許育誠, 107753001
 
 ### Goal
-A breif introduction about your project, i.e., what is your goal?
+想必大家都希望透過將剩餘可投資閒錢，透過證券交易方式來獲取豐沃的利潤。但股票市場有風平浪靜、卻有時如洪水一般，殺的投資者措手不及、血本無歸。仿間充斥許多名嘴老師，但是你（妳）相信嗎？除非，你掌握內線消息，否則就如同電視廣告台詞一般，“投資有風險..."。本組希望透過
 
 ### Demo 
 You should provide an example commend to reproduce your result
