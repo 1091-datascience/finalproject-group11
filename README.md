@@ -58,7 +58,7 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
   從上面R-square的結果可以看出，其結果非常的差，也發生了過度擬合等問題，接下來的發展空間仍然非常的大。
 * What is the challenge part of your project?
   
-  或許自己原本以為時間充裕，想要選擇較有挑戰性的來施作，像是時間序列等股票趨勢來分析。但是過程中，遇到很多程式語法、時間序列模型使用前檢定一直不合格(回歸三大假設：誤差具有常態分配、相同標準差等)。在時間壓迫下也只能選擇較好掌握的課題。
+  或許自己原本以為時間充裕，想要選擇較有挑戰性的來施作，像是時間序列等股票趨勢來分析。但是過程中，遇到很多程式語法、時間序列模型使用前檢定一直不合格(回歸三大假設：誤差具有常態分配、相同標準差等)。在時間壓迫下也只能選擇較好掌握的課題。在資料選擇方面，其因子共有62個，但可用資料筆數僅有678筆，相對而言也有可能是造成模型學習成效不佳的嚴重主因。
 
 ## References
 * Code/implementation which you include/reference (__You should indicate in your presentation if you use code for others. Otherwise, cheating will result in 0 score for final project.__)
