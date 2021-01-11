@@ -39,7 +39,7 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
 * How do your perform evaluation?
 在進行預測時，
 雖然每一筆匯率資料都列出了許多的影響影因子。可是說到底，匯率仍是一個與時間波動相關資訊。
-  ![image]<ing src='https://github.com/1091-datascience/finalproject-group11/blob/master/%E5%88%A4%E6%96%B7%E6%98%AF%E5%90%A6%E7%A9%A9%E6%85%8B.png' width='375'/>
+  <ing src='https://github.com/1091-datascience/finalproject-group11/blob/master/%E5%88%A4%E6%96%B7%E6%98%AF%E5%90%A6%E7%A9%A9%E6%85%8B.png' width='375'/>
 ### results
 
 * Which metric do you use 
