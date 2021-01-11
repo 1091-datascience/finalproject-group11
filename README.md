@@ -1,10 +1,10 @@
-# [Group11] 利用時間序列進行股票回測
+# Group11 利用時間序列進行股票回測
 
 ### Groups
 * 許育誠, 107753001
 
 ### Goal
-想必大家都希望透過將剩餘可投資閒錢，透過證券交易方式來獲取豐沃的利潤。但股票市場有風平浪靜、卻有時如洪水一般，殺的投資者措手不及、血本無歸。仿間充斥許多名嘴老師，但是你（妳）相信嗎？除非，你掌握內線消息，否則就如同電視廣告台詞一般，“投資有風險..."。本組希望透過
+想必大家都希望透過將剩餘可投資閒錢，透過證券交易方式來獲取豐沃的利潤。但股票市場有風平浪靜、卻有時如洪水一般，殺的投資者措手不及、血本無歸。仿間充斥許多名嘴老師，但是你（妳）相信嗎？除非，你掌握內線消息，否則就如同電視廣告台詞一般，“投資有風險..."。本組希望透過股票回測技術
 
 ### Demo 
 You should provide an example commend to reproduce your result
@@ -24,6 +24,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 ### data
 
 * Source
+   * yahoo股票
 * Input format
 * Any preprocessing?
   * Handle missing data
