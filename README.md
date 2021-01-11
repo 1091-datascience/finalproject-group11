@@ -45,7 +45,9 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
 ![image](https://github.com/1091-datascience/finalproject-group11/blob/master/%E6%8E%A2%E8%A8%8E%E6%99%82%E9%96%93%E9%80%B1%E6%9C%9F%E5%95%8F%E9%A1%8C.png)
   
   第二步，分析資料間對於結果的貢獻度，從這一步驟可以看出哪些資料對於結果是有其架大影想的。
-
+![image](https://github.com/1091-datascience/finalproject-group11/blob/master/%E7%89%B9%E5%BE%B5%E5%80%BC%E9%87%8D%E8%A6%81%E6%80%A7.png)
+  
+  第三步，訓練模型與模型挑選。到了這一步，大家就會開始嘗試各種自己所知可運用在這上面的模型。事實上，每種模型都有其建構的理論背景，並無哪一個模型佳或差，僅只是是否有剛好這一類的資料特性，可以將隱藏與資料中的規律給挑選出來。然而，這也是一種與第二步驟的循環，會不斷挑選因子、修正模型參數，甚制回到第一步修正資料。
 ### results
 
 * Which metric do you use 
