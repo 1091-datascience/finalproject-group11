@@ -40,7 +40,7 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
   * 線性回歸
   * xgboost
 * What is a null model for comparison?
-  * 使用 K-Fold Cross Validation 來進行模型驗證
+  * 在這個案例中，null model應該就是沒有任何因子協助評估下，最後預測出來的匯率值。然而，匯率指兩國間的幣值兌換率，似乎無一個較為固定比較值。
 * How do your perform evaluation?
   
   在進行預測時，都需進行一些資料的前處理動作，以為資料特徵更為顯著，也如同在本頁面上述所提方法。但是在資料整理完到進行模型訓練過程，事實上仍還需要有許多工作要執行，以這個專案為例，將會分成三個步驟為大家說明。
@@ -52,12 +52,13 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
   第二步，分析資料間對於結果的貢獻度，從這一步驟可以看出哪些資料對於結果是有其架大影想的。
 ![image](https://github.com/1091-datascience/finalproject-group11/blob/master/%E7%89%B9%E5%BE%B5%E5%80%BC%E9%87%8D%E8%A6%81%E6%80%A7.png)
   
-  第三步，訓練模型與模型挑選。到了這一步，大家就會開始嘗試各種自己所知可運用在這上面的模型。事實上，每種模型都有其建構的理論背景，並無哪一個模型佳或差，僅只是是否有剛好這一類的資料特性，可以將隱藏與資料中的規律給挑選出來。然而，這也是一種與第二步驟的循環，會不斷挑選因子、修正模型參數，甚制回到第一步修正資料。
+  第三步，訓練模型與模型挑選，使用 K-Fold Cross Validation 來進行模型驗證。到了這一步，大家就會開始嘗試各種自己所知可運用在這上面的模型。事實上，每種模型都有其建構的理論背景，並無哪一個模型佳或差，僅只是是否有剛好這一類的資料特性，可以將隱藏與資料中的規律給挑選出來。然而，這也是一種與第二步驟的循環，會不斷挑選因子、修正模型參數，甚制回到第一步修正資料。
 ### results
 
 * Which metric do you use 
   * R-square
 ![image](https://github.com/1091-datascience/finalproject-group11/blob/master/%20r%20square.pdf)
+
 * Is your improvement significant?
   
   從上面R-square的結果可以看出，其結果非常的差，也發生了過度擬合等問題，接下來的發展空間仍然非常的大。
