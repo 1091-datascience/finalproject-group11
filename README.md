@@ -57,7 +57,7 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
 
 * Which metric do you use 
   * R-square
-![image](https://github.com/1091-datascience/finalproject-group11/blob/master/%20r%20square.pdf)
+  ![image](https://github.com/1091-datascience/finalproject-group11/blob/master/%20r%20square.pdf)
 
 * Is your improvement significant?
   
