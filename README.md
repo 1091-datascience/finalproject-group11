@@ -77,7 +77,7 @@ Rscript Try10.R --fold 5 --train d_all.csv --report performance.csv
   * library(mice)
   * library(caret)
 * Related publications
-  * 黃開 ，機器學習與傳統模型對外匯報酬知因子分析，國立政治大學金融學研究所碩士學位論文
+  * https://fred.stlouisfed.org/
   * https://blog.csdn.net/zpxcod007/article/details/80118580
   * https://ithelp.ithome.com.tw/articles/10244840
   * http://blog.fens.me/r-na-mice/
